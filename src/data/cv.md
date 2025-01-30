@@ -12,7 +12,7 @@
 
 ### [Vissim](https://www.vissim.no) (Aug 2022 - present)
 
-#### Enterprise Architect at Vissim (Jan 2024 - present)
+#### Enterprise Architect (Jan 2024 - present)
 
 Understanding production environments and customer needs, establishing application engineering practices, and automating deployments.
 
@@ -21,14 +21,12 @@ Understanding production environments and customer needs, establishing applicati
 - Evaluating automated deployments in customers' infrastructure.
 - Helping to map the current product portfolio to the internal team structure.
 
-#### System Architect at Vissim (Aug 2022 - Dec 2023)
+#### System Architect (Aug 2022 - Dec 2023)
 
-One of the first employees in the Kosice office, handover and knowledge transfer from the Norwegian office.
-Establishing new teams and processes aligned with the company's vision.
-Introducing new technologies and practices to the company.
+One of the first employees in the Kosice office, handover and knowledge transfer from the Norwegian office. Establishing new teams and processes aligned with the company's vision. Introducing new technologies and practices to the company.
 
 - Capturing and documenting the current state of the product portfolio.
-- Analysing internal design and code quality with CodeQL, Roslyn and other static code analysis tools.
+- Analyzing internal design and code quality with CodeQL, Roslyn, and other static code analysis tools.
 - Improved secured communication between rigs and onshore infrastructure.
 - Introduced Vissim Cloud Integration Platform on Azure.
 
