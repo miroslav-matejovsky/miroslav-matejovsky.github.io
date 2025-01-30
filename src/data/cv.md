@@ -12,8 +12,6 @@
 
 ### [Vissim](https://www.vissim.no) (Aug 2022 - present)
 
-Vissim is a software developer, turnkey solutions, and infrastructure provider for advanced marine optimization and marine surveillance systems.
-
 #### Enterprise Architect at Vissim (Jan 2024 - present)
 
 Understanding production environments and customer needs, establishing application engineering practices, and automating deployments.
