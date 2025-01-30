@@ -126,11 +126,13 @@ Leading VAS (Value Added Services) loyalty development team in Wirecard.
 
 ## Technology Experience
 
-- Terraform, AWS (ECS, RDS, EC2, CloudWatch, VPC, ...)
+- Cloud Infrastructure Azure and AWS with Terraform
+- HyperV and HashiCorp Packer
+- DotNet platform, Roslyn
 - Spring (MVC, Boot, Security, Cloud Gateway, Batch, ...)
-- Keycloak (OpenId Connect)
-- gRPC, GraphQL, REST, SOAP
-- ActiveMQ, Kafka, Avro
+- Entra ID, Keycloak, OpenId Connect
+- gRPC, GraphQL, REST, SOAP, AMQP
+- Artemis, ActiveMQ, Kafka, Avro
 - SQL, JOOQ, Cassandra, MySQL, Oracle
 - Lagom, Akka, Akka Stream, Alpakka
 - Camel
