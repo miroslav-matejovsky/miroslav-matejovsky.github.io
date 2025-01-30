@@ -21,6 +21,7 @@ Understanding production environments and customer needs, establishing applicati
 - Designing and implementing a new architecture for Vissim's products.
 - Mainly on-premises deployments in customers' infrastructure and data centers.
 - Evaluating automated deployments in customers' infrastructure.
+- Helping to map the current product portfolio to the internal team structure.
 
 #### System Architect at Vissim (Aug 2022 - Dec 2023)
 
@@ -28,7 +29,9 @@ One of the first employees in the Kosice office, handover and knowledge transfer
 Establishing new teams and processes aligned with the company's vision.
 Introducing new technologies and practices to the company.
 
-- Secured communication between rigs and onshore infrastructure.
+- Capturing and documenting the current state of the product portfolio.
+- Analysing internal design and code quality with CodeQL, Roslyn and other static code analysis tools.
+- Improved secured communication between rigs and onshore infrastructure.
 - Introduced Vissim Cloud Integration Platform on Azure.
 
 ### Software Architect at ABB Solutions Slovakia (Aug 2020 - Jul 2022)
