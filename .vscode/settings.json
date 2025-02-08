@@ -1,9 +1,23 @@
 {
-    "cSpell.words": [
-        "Clojurescript",
-        "Entra",
-        "EPAM",
-        "Matejovský",
-        "Wirecard"
-    ]
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.tabSize": 2,
+  "github.copilot.enable": {
+    "plaintext": true,
+    "markdown": true
+  },
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "cSpell.words": [
+    "Clojurescript",
+    "Entra",
+    "EPAM",
+    "Matejovský",
+    "Miroslav",
+    "Vissim",
+    "Wirecard"
+  ],
+  "cSpell.language": "en",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "workbench.editor.showTabs": "none",
 }
