@@ -3,11 +3,14 @@ import { defineConfig } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
 
-// https://astro.build/config
+import markdoc from '@astrojs/markdoc';
+
 export default defineConfig({
   site: 'https://miroslav-matejovsky.github.io',
 
   vite: {
     plugins: [tailwindcss()],
   },
+
+  integrations: [markdoc()],
 });
