@@ -13,6 +13,9 @@
     "plaintext": true,
     "markdown": true
   },
+  "git.branchProtection": [
+    "main"
+  ],
   "git.autofetch": false,
   "workbench.editor.showTabs": "none",
   "workbench.colorTheme": "Flexoki Dark",

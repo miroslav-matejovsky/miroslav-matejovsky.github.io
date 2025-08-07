@@ -10,7 +10,6 @@
     "upgrade": "npx @astrojs/upgrade"
   },
   "dependencies": {
-    "@astrojs/markdoc": "^0.15.4",
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.12.8",
     "tailwindcss": "^4.1.11"
