@@ -33,3 +33,18 @@ To avoid tracking unnecessary files, you can create `.gitignore` and ignore ever
 !robbyrussell.omp.json
 !Commands/
 ```
+
+I also created `Commands` folder where I put various PowerShell scripts I want to use.
+Then I load all scripts from `Commands` folder in my profile:
+
+```powershell
+# Load all scripts from Commands folder
+$commandsDir = Join-Path $PSScriptRoot "Commands"
+if (Test-Path $commandsDir) {
+    Get-ChildItem -Path $commandsDir -Filter *.ps1 -File | ForEach-Object {
+        . $_.FullName
+    }
+}
+```
+
+Now you can create various scripts in `Commands` folder and use them in PowerShell.
