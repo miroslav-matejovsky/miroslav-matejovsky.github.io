@@ -1,0 +1,52 @@
+{
+  "window.title": "${rootName}",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "git.branchProtection": [
+    "main"
+  ],
+  "git.autofetch": false,
+  "workbench.editor.showTabs": "none",
+  "workbench.colorTheme": "Flexoki Dark",
+  "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+  "terminal.integrated.profiles.windows": {
+    "pwsh": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.profiles.osx": {
+    "fish": {
+      "path": "/opt/homebrew/bin/fish",
+      "icon": "terminal"
+    },
+  },
+  "terminal.integrated.defaultProfile.windows": "pwsh",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "powershell.startAutomatically": true,
+  "powershell.integratedConsole.showOnStartup": false,
+  "powershell.enableProfileLoading": true,
+  "cSpell.language": "en",
+  "cSpell.words": [
+    "Clojurescript",
+    "Entra",
+    "EPAM",
+    "frontmatter",
+    "markdoc",
+    "Matejovský",
+    "Miroslav",
+    "Vissim",
+    "Wirecard"
+  ],
+}
