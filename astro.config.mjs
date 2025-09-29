@@ -37,7 +37,7 @@ export default defineConfig({
 				{
 					label: 'About',
 					items: [
-						{ label: 'About Me', slug: 'about/me' },
+						{ label: 'Me', slug: 'about/me' },
 						{ label: 'This Page', slug: 'about/this-page' },
 
 						// { label: 'Stoic', slug: 'about/about-stoic' },
