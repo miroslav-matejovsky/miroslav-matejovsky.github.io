@@ -18,7 +18,7 @@ export default defineConfig({
 				{
 					label: 'Elixir',
 					items: [
-						// { label: 'First taste', slug: 'elixir/first-taste' },
+						{ label: 'First taste', slug: 'elixir/first-taste' },
 					],
 				},
 				{
@@ -28,12 +28,19 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Windows',
+					items: [
+						{ label: 'PowerShell Profile', slug: 'windows/powershell-profile' },
+						{ label: 'PowerShell Fortunes', slug: 'windows/powershell-fortunes' },
+					],
+				},
+				{
 					label: 'About',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'About Me', slug: 'about/me' },
+						{ label: 'This Page', slug: 'about/this-page' },
+
 						// { label: 'Stoic', slug: 'about/about-stoic' },
-						// { label: 'This Page', slug: 'about/this-page' },
 						// { label: 'CV', slug: 'cv' },
 					],
 					// autogenerate: { directory: 'reference' },
