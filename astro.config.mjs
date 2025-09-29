@@ -6,8 +6,11 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Introverted Rebel',
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/miroslav-matejovsky' },
+				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/miroslav-matejovsky/' }
+			],
 			sidebar: [
 				{
 					label: 'Guides',
