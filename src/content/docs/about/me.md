@@ -2,6 +2,8 @@
 title: About Me
 description: Learn more about Miroslav Matejovsky.
 tableOfContents: false
+prev: false
+next: false
 ---
 
 Hello! I'm Miroslav Matejovsky, an introverted rebel, latent artist, and practicing stoic.
