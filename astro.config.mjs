@@ -7,6 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Miroslav Matejovsky',
+			logo: {
+				src: './src/assets/logo.png',
+			},
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/miroslav-matejovsky' },
 				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/miroslav-matejovsky/' }
@@ -18,7 +21,8 @@ export default defineConfig({
 						// { label: 'First taste', slug: 'elixir/first-taste' },
 					],
 				},
-				{ label: 'Go',
+				{
+					label: 'Go',
 					items: [
 						// { label: 'Installers with Embedding', slug: 'go/installers-with-embedding' },
 					],
