@@ -41,12 +41,11 @@ function Get-Fortune {
   $coloredFortune = $randomFortune -replace "'([^']+)'", "`e[33m'$+'`e[0m"
 
   if (Get-Command cowsay -ErrorAction SilentlyContinue) {
-    # Use cowsay for ASCII art (plain text, no colors)
+    # Use cowsay for ASCII art if installed
     $coloredFortune | cowsay
   }
   else {
     # Fallback: highlight commands in yellow using ANSI codes
-    # $coloredFortune = $randomFortune -replace "'([^']+)'", "`e[33m'$1'`e[0m"
     Write-Host $coloredFortune
   }
 }
