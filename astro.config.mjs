@@ -16,9 +16,9 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
-					label: 'Elixir',
+					label: 'OTP (Erlang/Elixir)',
 					items: [
-						// { label: 'First taste', slug: 'elixir/first-taste' },
+						{ label: 'First taste of Elixir', slug: 'otp/first-taste-of-elixir' },
 					],
 				},
 				{
@@ -28,15 +28,30 @@ export default defineConfig({
 					],
 				},
 				{
+					label: '.NET',
+					items: [
+					],
+				},
+				{
+					label: 'Windows',
+					items: [
+						{ label: 'PowerShell Profile', slug: 'windows/powershell-profile' },
+						{ label: 'PowerShell Fortunes', slug: 'windows/powershell-fortunes' },
+					],
+				},
+				{
+					label: 'Architecture',
+					items: [
+						// { label: 'Stoic', slug: 'about/about-stoic' },					],
+					],
+				},
+				{
 					label: 'About',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'About Me', slug: 'about/me' },
-						// { label: 'Stoic', slug: 'about/about-stoic' },
-						// { label: 'This Page', slug: 'about/this-page' },
+						{ label: 'Me', slug: 'about/me' },
+						{ label: 'This Page', slug: 'about/this-page' },
 						// { label: 'CV', slug: 'cv' },
 					],
-					// autogenerate: { directory: 'reference' },
 				},
 			],
 		}),
