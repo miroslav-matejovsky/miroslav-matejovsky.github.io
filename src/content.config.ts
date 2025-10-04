@@ -12,8 +12,6 @@ export const collections = {
 				tableOfContents: z.boolean().default(false),
 				prev: z.boolean().default(false),
 				next: z.boolean().default(false),
-				// Add a new field to the schema.
-				category: z.enum(['tutorial', 'guide', 'reference']).optional(),
 			}),
 		})
 	}),
