@@ -9,7 +9,7 @@ hero:
     file: ../../assets/profilofka.webp
 ---
 
-Welcome to my personal website where I share my thoughts, notes, and articles about software programming,
+Welcome to my personal website where I share my notes and explorations about programming,
 software architecture, and more.
 
 ## Introverted Rebel
@@ -43,4 +43,4 @@ Pragmatic solutions are often the most effective, even if they are not the most 
 I've worked in various roles including developer, technical lead, architect, and consultant.
 My technical journey spans .NET, JVM, and Go, Cloud and On Premises, relational and NoSQL databases, and more.
 
-Feel free to reach out if you'd like to discuss any of the topics covered here.
+Feel free to explore the site and reach out if you'd like to discuss any of the topics covered here.
