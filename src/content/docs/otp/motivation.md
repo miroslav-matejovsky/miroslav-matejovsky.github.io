@@ -1,6 +1,7 @@
 ---
 title: Motivation
-Description: Why I am gravitating towards OTP/BEAM for building scalable and maintainable applications.
+description: Why I am gravitating towards OTP/BEAM for building scalable and maintainable applications.
+draft: true
 ---
 
 - Experience from production systems deployed on customer infrastructure and cloud.
