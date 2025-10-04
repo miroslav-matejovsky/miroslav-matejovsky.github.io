@@ -1,9 +1,6 @@
 ---
 title: PowerShell Profile
 description: Track your PowerShell profile in git.
-tableOfContents: false
-prev: false
-next: false
 ---
 
 I do no remember where is my PowerShell profile located, but there is a variable `$PROFILE`:

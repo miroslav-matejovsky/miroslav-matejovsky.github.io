@@ -1,9 +1,6 @@
 ---
 title: PowerShell Fortunes
 description: Simple script to display random fortunes in PowerShell.
-tableOfContents: false
-prev: false
-next: false
 ---
 
 I've read this article about [Fortunes](https://www.judy.co.uk/blog/using-fortune-to-reinforce-habits/) and I wanted to have something similar in PowerShell.
