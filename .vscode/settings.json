@@ -39,6 +39,7 @@
   "powershell.enableProfileLoading": true,
   "cSpell.language": "en",
   "cSpell.words": [
+    "apim",
     "Clojurescript",
     "cowsay",
     "Entra",
@@ -47,6 +48,7 @@
     "markdoc",
     "Matejovský",
     "Miroslav",
+    "onprem",
     "profilofka",
     "Vissim",
     "Wirecard"

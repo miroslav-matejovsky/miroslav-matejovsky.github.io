@@ -1,0 +1,68 @@
+# Colors to choose from: https://github.com/terrastruct/d2/blob/master/lib/color/color.go#L190
+
+vars: {
+  d2-config: {
+    pad: 2
+    center: true
+    theme-id: 5
+    dark-theme-id: 5
+    layout-engine: tala
+    sketch: false
+  }
+}
+
+direction: down
+
+***.label.near: top-center
+***.style: {
+  stroke-width: 1
+  shadow: true
+  border-radius: 5
+  font-size: 8
+  font-color: black
+}
+
+classes: {
+  arrow: {
+    style: {
+      stroke: black
+      stroke-width: 1
+      font-size: 8
+      font-color: black
+    }
+  }
+  box: {
+    width: 150
+    height: 50
+  }
+}
+
+cloud: {
+  label: Azure Cloud
+
+  apim: {
+    label: API Management
+    class: box
+  }
+  vpn: {
+    label: VPN Gateway
+    class: box
+  }
+}
+
+onprem: {
+  label: On-Premises
+  service: {
+    label: Service\n\[WinService\]
+    class: box
+  }
+}
+
+cloud.apim -> cloud.vpn: {class: arrow; label: Private Endpoint}
+cloud.vpn -> onprem.service: {class: arrow; label: S2S VPN}
+
+cloud: {top: 0; left: 0; label.near: top-left}
+cloud.apim: {top: 0; left: 0}
+cloud.vpn: {top: 100; left: 0}
+
+onprem: {top: 300; left: 0; label.near: top-left}
