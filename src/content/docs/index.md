@@ -1,17 +1,22 @@
 ---
-title: About Me
+title: Miroslav Matejovsky
 description: Learn more about Miroslav Matejovsky.
 template: doc
 hero:
-  tagline: My name is Miroslav Matejovsky.
+  tagline: |
+    Introverted Rebel, Latent Artist, Practicing Stoic.
   image:
-    file: ../../../assets/profilofka.webp
+    file: ../../assets/profilofka.webp
 ---
 
-Hello! My name is Miroslav Matejovsky.
-I am an Introverted Rebel, Latent Artist, and Practicing Stoic.
 Welcome to my personal website where I share my thoughts, notes, and articles about software programming,
 software architecture, and more.
+
+## Introverted Rebel
+
+## Latent Artist
+
+## Practicing Stoic
 
 ## What I Do
 

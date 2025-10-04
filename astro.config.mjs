@@ -49,7 +49,7 @@ export default defineConfig({
 				{
 					label: 'About',
 					items: [
-						{ label: 'Me', slug: 'about/me' },
+						{ label: 'Me', slug: 'index' },
 						{ label: 'This Page', slug: 'about/this-page' },
 						// { label: 'CV', slug: 'cv' },
 					],
