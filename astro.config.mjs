@@ -43,7 +43,7 @@ export default defineConfig({
 					label: 'Architecture',
 					items: [
 						{ label: 'Stoic', slug: 'architecture/stoic' },
-						{ label: 'D2 Best Practices', slug: 'architecture/d2' },
+						{ label: 'D2', slug: 'architecture/d2' },
 					],
 				},
 				{
