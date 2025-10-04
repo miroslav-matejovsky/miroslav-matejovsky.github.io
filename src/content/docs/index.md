@@ -14,36 +14,33 @@ software architecture, and more.
 
 ## Introverted Rebel
 
+Rebelling for the sake of improvement and positive change. Thinking differently and challenging the status quo.
+Arrow of entropy and time is always pushing us to change, so why not direct it towards better things?
+
 ## Latent Artist
+
+Art can be found in many forms, not just traditional mediums. I see coding as a form of art where creativity meets logic.
+I realized this when I read "The Creative Act: A Way of Being" by Rick Rubin.
+Every aspect of life can be approached with an artistic mindset, from problem-solving to communication.
 
 ## Practicing Stoic
 
+Stoicism teaches us to focus on what we can control and accept what we cannot.
+It helps me navigate the complexities of life and work with a clear mind and steady heart.
+I choose which problems to tackle and which to let go, aiming for tranquility and resilience.
+
 ## What I Do
 
-I'm a Software Architect with a focus on delivery and maintainability.
-I take a pragmatic approach to building production battle-tested solutions,
-drawing from experience across various programming languages and technologies, primarily in backend development.
+I like to write code and deliver solutions that bring value and solve real problems.
+It is not that important which role, programming language or technology I use,
+but rather the outcome and impact of the work.
 
-My technical journey spans .NET, JVM ecosystems, and Go, with a constant emphasis on creating systems that
-are both robust and maintainable.
+I've learned that the hardest part is identifying the real problems to solve, understanding the context,
+and choosing the right tools and approaches.
 
-## Philosophy & Approach
+Pragmatic solutions are often the most effective, even if they are not the most elegant or sophisticated.
 
-As a practicing Stoic, I believe in focusing on what we can control and approaching challenges with clarity and purpose.
-This mindset influences both my personal life and professional work, where I strive for thoughtful,
-sustainable solutions over quick fixes.
+I've worked in various roles including developer, technical lead, architect, and consultant.
+My technical journey spans .NET, JVM, and Go, Cloud and On Premises, relational and NoSQL databases, and more.
 
-## This Website
-
-This site serves as an informative space where I share insights, experiences, and learnings from my journey in software development.
-You'll find articles on programming concepts, architectural patterns,
-and occasional explorations into other areas that capture my interest.
-
-## What You'll Find Here
-
-- **Technical Articles**: Deep dives into programming languages, frameworks, and architectural patterns
-- **Personal Reflections**: Thoughts on software development culture, productivity, and continuous learning
-- **Project Insights**: Lessons learned from real-world development challenges
-- **Explorations**: Occasional ventures into adjacent topics that spark my curiosity
-
-Feel free to explore the site and reach out if you'd like to discuss any of the topics covered here.
+Feel free to reach out if you'd like to discuss any of the topics covered here.
