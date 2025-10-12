@@ -16,6 +16,13 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
+					label: 'Architecture',
+					items: [
+						{ label: 'Stoic', slug: 'architecture/stoic' },
+						{ label: 'D2', slug: 'architecture/d2' },
+					],
+				},
+				{
 					label: 'OTP (Erlang/Elixir)',
 					items: [
 						{ label: 'First taste of Elixir', slug: 'otp/first-taste-of-elixir' },
@@ -40,18 +47,11 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Architecture',
-					items: [
-						{ label: 'Stoic', slug: 'architecture/stoic' },
-						{ label: 'D2', slug: 'architecture/d2' },
-					],
-				},
-				{
 					label: 'About',
 					items: [
-						{ label: 'Me', slug: 'index' },
+						{ label: 'LLMs', slug: 'about/llms' },
 						{ label: 'This Page', slug: 'about/this-page' },
-						// { label: 'CV', slug: 'cv' },
+						{ label: 'Me', slug: 'index' },
 					],
 				},
 			],
