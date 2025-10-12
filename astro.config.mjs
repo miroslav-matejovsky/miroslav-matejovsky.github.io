@@ -49,9 +49,9 @@ export default defineConfig({
 				{
 					label: 'About',
 					items: [
-						{ label: 'Me', slug: 'index' },
+						{ label: 'LLMs', slug: 'about/llms' },
 						{ label: 'This Page', slug: 'about/this-page' },
-						// { label: 'CV', slug: 'cv' },
+						{ label: 'Me', slug: 'index' },
 					],
 				},
 			],
