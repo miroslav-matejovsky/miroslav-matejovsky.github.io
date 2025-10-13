@@ -4,5 +4,5 @@
 
 ## TODO
 
-- Latent Complexity
+- Latent Complexity (EMS configuration)
 - More about Stoicism in Architecture
