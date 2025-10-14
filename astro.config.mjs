@@ -19,7 +19,8 @@ export default defineConfig({
 				{
 					label: 'Architecture',
 					items: [
-						{ label: 'Stoic', slug: 'architecture/stoic' },
+						{ label: 'Stoicism', slug: 'architecture/stoicism' },
+						{ label: 'Koans', slug: 'architecture/koans' },
 						{ label: 'D2', slug: 'architecture/d2' },
 					],
 				},

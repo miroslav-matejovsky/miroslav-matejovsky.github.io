@@ -5,5 +5,4 @@
 ## TODO
 
 - Latent Complexity (EMS configuration)
-- More about Stoicism in Architecture
 - Leadership: illocutionary vs perlocutionary act
