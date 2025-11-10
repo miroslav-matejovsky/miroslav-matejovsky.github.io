@@ -6,3 +6,4 @@
 
 - Latent Complexity (EMS configuration)
 - Leadership: illocutionary vs perlocutionary act
+- Stoic - why page exists, maybe too minimalist
