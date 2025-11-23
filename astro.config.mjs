@@ -51,7 +51,7 @@ export default defineConfig({
 					label: 'About',
 					items: [
 						{ label: 'Me', slug: 'index' },
-						{ label: 'Stoic', slug: 'about/stoic' },
+						{ label: 'Stoicism', slug: 'about/stoicism' },
 						{ label: 'LLMs', slug: 'about/llms' },
 						{ label: 'This Page', slug: 'about/this-page' },
 					],
