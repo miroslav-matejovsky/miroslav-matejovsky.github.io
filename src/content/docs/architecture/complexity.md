@@ -3,42 +3,53 @@ title: Complexity
 description: How I see complexity in software architecture.
 ---
 
-## Complexity is Inevitable
+## Complexity Is Inevitable
 
-Software systems are inherently complex due to their nature and the environments they operate in.
-By observation I have found some types of complexity that can be found in most systems:
+Software systems are inherently complex due to their nature and the environments in which they operate.
+Understanding the sources of complexity is critical for architects and decision-makers
+because it shapes design choices, influences maintainability, and determines long-term sustainability.
+By identifying the type of complexity, we can decide whether to accept it, reduce it, or eliminate it.
+Through observation, several common types of complexity emerge in most systems:
 
-### Essential Complexity
+***
 
-This is the complexity that arises from the fundamental requirements and constraints of the problem domain.
-It is the complexity that cannot be removed without changing the problem itself.
+### **Essential Complexity**
 
-### Accidental Complexity
+Complexity that stems from the fundamental requirements and constraints of the problem domain.  
+It cannot be removed without altering the problem itself.
 
-This is the complexity that arises from the implementation choices, tools, and technologies used to solve the problem.
-It is the complexity that can be reduced or eliminated through better design, practices, and tools.
-Usually acceptable and can be mitigated by good architecture and engineering practices.
+***
 
-### Latent Complexity
+### **Accidental Complexity**
 
-This complexity arises from not fully understanding the system, its requirements, or its environment.
-Usually it means that Product team does not have enough knowledge about the domain or the users.
-Developers then make product decisions based on incorrect assumptions, leading to increased complexity.
-This type of complexity can be reduced through better communication, research, and learning.
+Complexity introduced by implementation choices, tools, and technologies.  
+It can be reduced or eliminated through better design, practices, and tooling.  
+Generally acceptable when mitigated by sound architecture and engineering principles.
 
-### Complexity by Design
+***
 
-Can be usually seen in systems designed by external consultants and highly experienced architects,
-that are focusing more on showcasing their skills and knowledge than on solving the actual problem at hand.
-These systems may incorporate advanced patterns, abstractions, and optimizations
-that are not necessary for the current requirements.
-Although this is understandable from the perspective of future-proofing,
-it can lead to unnecessary complexity that hinders development and maintenance.
+### **Latent Complexity**
 
-### Complexity by Ignorance
+Complexity caused by incomplete understanding of the system, its requirements, or its environment.  
+Often a result of insufficient domain knowledge within the product team.  
+Developers then make decisions based on incorrect assumptions, increasing complexity.  
+This can be reduced through improved communication, research, and continuous learning.
 
-This complexity arises from lack of knowledge, experience, or understanding of the problem domain,
+***
+
+### **Complexity by Design**
+
+Common in systems shaped by external consultants or highly experienced architects
+who prioritize showcasing expertise over solving the actual problem.
+Such systems may include advanced patterns, abstractions, and optimizations unnecessary for current requirements.
+While intended for future-proofing, this often results in avoidable complexity that slows development and maintenance.
+
+***
+
+### **Complexity by Ignorance**
+
+Complexity arising from lack of knowledge, experience, or understanding of the domain,
 technologies, or best practices.
-It often leads to poor design decisions, inefficient implementations, and increased technical debt.
-Very often seen in junior developers or teams unfamiliar with the domain or technology stack.
-Usually it is easier to rewrite the system from scratch than to maintain it.
+Leads to poor design decisions, inefficient implementations, and technical debt.
+Frequently seen in teams unfamiliar with the domain or technology stack.
+In some cases cases, rewriting the system from scratch becomes easier than maintaining it.
