@@ -19,6 +19,8 @@ export default defineConfig({
 				{
 					label: 'Architecture',
 					items: [
+						{ label: 'Complexity', slug: 'architecture/complexity' },
+						{ label: 'Backlog', slug: 'architecture/backlog' },
 						{ label: 'Koans', slug: 'architecture/koans' },
 						{ label: 'D2', slug: 'architecture/d2' },
 					],

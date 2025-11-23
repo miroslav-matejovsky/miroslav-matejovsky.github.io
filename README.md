@@ -4,6 +4,5 @@
 
 ## TODO
 
-- Latent Complexity (EMS configuration)
 - Leadership: illocutionary vs perlocutionary act
 - Hot, Warm, Cold storage analogy with backlog
