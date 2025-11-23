@@ -4,5 +4,4 @@
 
 ## TODO
 
-- Latent Complexity (EMS configuration)
 - Leadership: illocutionary vs perlocutionary act
