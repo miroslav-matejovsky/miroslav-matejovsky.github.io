@@ -3,7 +3,7 @@ title: PowerShell Profile
 description: Track your PowerShell profile in git.
 ---
 
-I do no remember where is my PowerShell profile located, but there is a variable `$PROFILE`:
+I don't remember where my PowerShell profile is located, but there's a variable `$PROFILE`:
 
 ```powershell
 $PROFILE
@@ -15,7 +15,7 @@ Open folder with profile in VS Code:
 code $PROFILE/..
 ```
 
-Now you can track whole profile directory in git. (aka [dotfiles](https://wiki.archlinux.org/title/Dotfiles) for PowerShell :smile:)
+Now you can track whole profile directory in git. (aka [dotfiles](https://wiki.archlinux.org/title/Dotfiles) for PowerShell).
 To avoid tracking unnecessary files, you can create `.gitignore` and ignore everything except files you want to track:
 
 ```text
