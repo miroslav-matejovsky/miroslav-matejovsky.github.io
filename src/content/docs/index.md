@@ -10,21 +10,25 @@ hero:
 ---
 
 Welcome to my personal website, where I share insights and explorations on programming, software architecture, and beyond.
-
 While there is some self-promotion here, my primary goal is to document ideas,
 refine thinking, and provide resources for those interested in similar topics.
 
+---
+
 ## Introverted Rebel
 
-I challenge the status quo to drive improvement and positive change.
+I challenge the status quo to drive improvement and positive change.  
 Entropy and time push us toward transformation—why not steer that change toward something better?
+
+---
 
 ## Latent Artist
 
 Art exists in many forms, not just traditional mediums.
 For me, coding is art—a fusion of creativity and logic.
-Rick Rubin’s The Creative Act: A Way of Being reinforced this perspective:
-every aspect of life can be approached with an artistic mindset, from problem-solving to communication.
+Every aspect of life can be approached with an artistic mindset, from problem-solving to communication.
+
+---
 
 ## Practicing Stoic
 
@@ -32,25 +36,52 @@ Stoicism teaches focus on what we can control and acceptance of what we cannot.
 It helps me navigate complexity with clarity and resilience.
 I choose which problems to tackle and which to release, aiming for tranquility and effectiveness.
 
+---
+
 ## What I Do
 
-I specialize in solving complex problems.
+I specialize in solving complex problems—technical, organizational, and strategic.
 
-- Challenges can be technical, organizational, or strategic.
-- While I enjoy technical problem-solving most, I understand that root causes are often non-technical.
-- My approach emphasizes context and uncovering the real issues behind the symptoms.
-- Asking the right questions is often more valuable than having immediate answers—it drives deeper understanding.
+### Core Principles
 
-I design and deliver solutions that create measurable business value.  
-Technology and tools are secondary to outcomes and impact.
+- Technical challenges are my strength, but real issues often extend beyond technology.
+- I prioritize understanding context and uncovering root causes rather than addressing surface symptoms.
+- Asking the right questions is more valuable than quick answers—it leads to clarity and actionable insight.
 
-The most difficult—and most critical—steps are identifying the real problems, understanding the environment,  
-and selecting the right strategies and technologies.
-This requires close collaboration with stakeholders and teams, and the ability to ask questions that lead to actionable insights.
+### Approach
 
-Pragmatic solutions consistently outperform overly complex or purely theoretical ones.
+I design solutions that deliver measurable business impact.  
+Technology is a tool; outcomes define success.
 
-I have served as developer, technical lead, architect, and consultant.
-My experience spans .NET, JVM, Go, cloud and on-premises architectures, relational and NoSQL databases, and more.
+The most critical steps include:
 
-Explore the site and connect if you want to discuss technology strategy, architecture, or problem-solving at scale.
+- Identifying the real problem
+- Understanding the environment
+- Selecting strategies and technologies that fit
+
+This requires close collaboration with stakeholders and disciplined questioning to transform uncertainty into direction.
+
+### Leadership
+
+Leadership is more than decision-making—it’s about communication and influence.  
+I apply the distinction between **illocutionary acts**
+(what is said and intended) and **perlocutionary acts** (the effect those words have).
+
+Effective leadership means aligning intent with impact:
+ensuring that what we say produces the desired outcome without ambiguity or unintended consequences.
+This principle shapes how I lead teams and engage stakeholders—clarity of intent, precision of language,
+and awareness of ripple effects.
+It also influences architecture decisions: communication drives alignment, and alignment drives successful delivery.
+
+### Experience Highlights
+
+- **Application Platforms:** .NET, JVM, Go — delivering scalable, maintainable, and high-performance solutions  
+- **Architectures:** Cloud-native systems, distributed architectures, microservices, and modernization of legacy applications
+- **Specialized Solutions:**  
+  - Windows Services and WPF for enterprise-grade desktop applications  
+  - Critical software for control centers requiring high reliability and fault tolerance
+  - Resilient communication in degraded or constrained networks
+- **Industry Domains:** Finance, health insurance, maritime systems —
+  solutions designed for compliance, security, and operational continuity
+- **Operational Excellence:** Collaboration with SRE and ITOps teams
+  to ensure reliability, observability, and performance at scale

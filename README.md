@@ -4,4 +4,3 @@
 
 ## TODO
 
-- Leadership: illocutionary vs perlocutionary act
