@@ -61,6 +61,17 @@ The most critical steps include:
 
 This requires close collaboration with stakeholders and disciplined questioning to transform uncertainty into direction.
 
+### **Leadership**
+
+Leadership is more than decision-making—it’s about communication and influence.  
+I apply the distinction between **illocutionary acts**
+(what is said and intended) and **perlocutionary acts** (the effect those words have).
+Effective leadership means aligning intent with impact:
+ensuring that what we say produces the desired outcome without ambiguity or unintended consequences.
+This principle shapes how I lead teams and engage stakeholders—clarity of intent, precision of language,
+and awareness of ripple effects.
+It also influences architecture decisions: communication drives alignment, and alignment drives successful delivery.
+
 ### **Philosophy**
 
 Practical solutions consistently outperform overly complex or purely theoretical ones.
