@@ -42,13 +42,13 @@ I choose which problems to tackle and which to release, aiming for tranquility a
 
 I specialize in solving complex problems—technical, organizational, and strategic.
 
-### **Core Principles**
+### Core Principles
 
 - Technical challenges are my strength, but real issues often extend beyond technology.
 - I prioritize understanding context and uncovering root causes rather than addressing surface symptoms.
 - Asking the right questions is more valuable than quick answers—it leads to clarity and actionable insight.
 
-### **Approach**
+### Approach
 
 I design solutions that deliver measurable business impact.  
 Technology is a tool; outcomes define success.
@@ -61,22 +61,19 @@ The most critical steps include:
 
 This requires close collaboration with stakeholders and disciplined questioning to transform uncertainty into direction.
 
-### **Leadership**
+### Leadership
 
 Leadership is more than decision-making—it’s about communication and influence.  
 I apply the distinction between **illocutionary acts**
 (what is said and intended) and **perlocutionary acts** (the effect those words have).
+
 Effective leadership means aligning intent with impact:
 ensuring that what we say produces the desired outcome without ambiguity or unintended consequences.
 This principle shapes how I lead teams and engage stakeholders—clarity of intent, precision of language,
 and awareness of ripple effects.
 It also influences architecture decisions: communication drives alignment, and alignment drives successful delivery.
 
-### **Philosophy**
-
-Practical solutions consistently outperform overly complex or purely theoretical ones.
-
-### **Experience**
+### Experience Highlights
 
 - **Application Platforms:** .NET, JVM, Go — delivering scalable, maintainable, and high-performance solutions  
 - **Architectures:** Cloud-native systems, distributed architectures, microservices, and modernization of legacy applications
@@ -88,7 +85,3 @@ Practical solutions consistently outperform overly complex or purely theoretical
   solutions designed for compliance, security, and operational continuity
 - **Operational Excellence:** Collaboration with SRE and ITOps teams
   to ensure reliability, observability, and performance at scale
-
----
-
-**I help organizations turn complexity into clarity and deliver technology strategies that scale with confidence.**
