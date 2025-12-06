@@ -4,3 +4,5 @@
 
 ## TODO
 
+- writing code for the team
+- modes of writing code: for fun, for the team, for learning

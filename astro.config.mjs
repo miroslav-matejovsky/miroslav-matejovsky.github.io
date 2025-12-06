@@ -32,14 +32,9 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Go',
+					label: 'Coding',
 					items: [
-						// { label: 'Installers with Embedding', slug: 'go/installers-with-embedding' },
-					],
-				},
-				{
-					label: '.NET',
-					items: [
+						{ label: 'Writing Code Modes', slug: 'coding/writing-code-modes' },
 					],
 				},
 				{
