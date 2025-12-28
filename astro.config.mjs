@@ -20,6 +20,7 @@ export default defineConfig({
 					label: 'Architecture',
 					items: [
 						{ label: 'Complexity', slug: 'architecture/complexity' },
+						{ label: 'Coupling', slug: 'architecture/coupling' },
 						{ label: 'Backlog', slug: 'architecture/backlog' },
 						{ label: 'Koans', slug: 'architecture/koans' },
 						{ label: 'D2', slug: 'architecture/d2' },
@@ -29,17 +30,6 @@ export default defineConfig({
 					label: 'OTP (Erlang/Elixir)',
 					items: [
 						{ label: 'First taste of Elixir', slug: 'otp/first-taste-of-elixir' },
-					],
-				},
-				{
-					label: 'Go',
-					items: [
-						// { label: 'Installers with Embedding', slug: 'go/installers-with-embedding' },
-					],
-				},
-				{
-					label: '.NET',
-					items: [
 					],
 				},
 				{

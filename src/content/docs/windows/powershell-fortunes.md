@@ -3,7 +3,8 @@ title: PowerShell Fortunes
 description: Simple script to display random fortunes in PowerShell.
 ---
 
-I've read this article about [Fortunes](https://www.judy.co.uk/blog/using-fortune-to-reinforce-habits/) and I wanted to have something similar in PowerShell.
+I've read this article about [Fortunes](https://www.judy.co.uk/blog/using-fortune-to-reinforce-habits/)
+and I wanted to have something similar in PowerShell.
 
 So I created a simple script that displays random fortune from a list of fortunes.
 
