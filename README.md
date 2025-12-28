@@ -4,7 +4,5 @@
 
 ## TODO
 
-- writing code for the team
-- modes of writing code: for fun, for the team, for learning
-- levels of unified behavior: standalone, framework/library, tck
+- Code modes: for team and readability, for fun and learning, for performance and optimization
 - CV ideas: <https://crocspace.substack.com/p/freelancing-how-i-got-clients-part>
