@@ -44,6 +44,7 @@ export default defineConfig({
 					items: [
 						{ label: 'Me', slug: 'index' },
 						{ label: 'Stoicism', slug: 'about/stoicism' },
+						{ label: 'Leadership', slug: 'about/leadership' },
 						{ label: 'LLMs', slug: 'about/llms' },
 						{ label: 'This Page', slug: 'about/this-page' },
 					],
