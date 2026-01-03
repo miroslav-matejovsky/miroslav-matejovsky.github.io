@@ -1,5 +1,8 @@
 default: true
 
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md001.md
+heading-increment: false
+
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md
 line-length:
   line_length: 120

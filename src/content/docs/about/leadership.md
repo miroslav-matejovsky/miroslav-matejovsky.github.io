@@ -1,14 +1,16 @@
 ---
-title: Technical Leadership
-description: My thoughts on leading technical teams and projects.
+title: Leadership
+description: Thoughts on Leadership in Both Technical and Non-Technical Contexts.
 ---
 
-- When assigning tasks you should know how you would do them yourself.
-If you wouldn't know how to do it, you can't expect others to do it.
+### Know Before You Delegate
 
-- When you don't know how to approach a problem, you have at least two options:
-  - Research and learn how to solve it yourself first.
-  - Define a "research task" or spike for someone else to explore possible solutions.
-    Ideally with limited time and clear goals.
+Delegation fails when you assign tasks you don’t understand.
+If you wouldn’t know how to do it, don’t expect others to succeed blindly.
 
-- If task is too complex, break it down into smaller sub-tasks that are manageable.
+When facing an unfamiliar problem, you have at least two paths:
+
+- **Learn first**: Research and figure out the solution, or at least approach to solution yourself.
+- **Delegate exploration**: Define a research spike with strict time limits and clear objectives.
+
+For complex tasks, break them down into smaller, manageable sub-tasks. Clarity and structure are non-negotiable.
