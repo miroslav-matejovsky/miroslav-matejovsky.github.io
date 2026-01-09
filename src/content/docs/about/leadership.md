@@ -17,14 +17,16 @@ For complex tasks, break them down into smaller, manageable sub-tasks. Clarity a
 
 ### Evaluate People by Value
 
-Organizations often overemphasize technical proficiency as the primary metric for individual worth. This is flawed.
-Technical skills can be skewed by access to training, self-promotion, or presentation style.
-They rarely reflect actual outcomes.
+Organizations often overemphasize technical proficiency as the primary measure of individual worth. This is flawed.
+Technical skills can be skewed by access to training, self-promotion, or presentation style and rarely reflect actual outcomes.
 
-True value lies in measurable impact on delivery and support.
-Delivery ensures commitments are met; support sustains operational stability and team cohesion.
-These factors drive resilience and performance.
+True value comes from delivery and support—meeting commitments, maintaining stability, and enabling cohesion.
+Technical expertise is a tool, not an end goal.
+Prioritizing optics or niche skills over execution creates fragility; value must rest on outcomes, not perception.
 
-Technical expertise is a tool, not an end goal—and difficult to quantify in isolation.
-Elevating individuals based on optics or niche skillsets creates structural fragility.
-Value must be anchored in execution and systemic support, not perception.
+To evaluate real contribution, consider the impact if the person were to leave:
+
+- How quickly could you replace and onboard someone with similar effectiveness?
+- What delivery or operational gaps would appear?
+
+The greater the disruption and recovery effort, the higher their true value to the organization.
