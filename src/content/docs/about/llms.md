@@ -25,6 +25,12 @@ LLMs are not AI in the sense of being intelligent or sentient. They are just ver
 If you have design under control and let them generate the boilerplate code, they can be very useful
 and speed up your workflow. But you have to be the one in control.
 
+## Subconscious inspiration
+
+Sometimes, when you are stuck on a problem, asking an LLM can help you get unstuck.
+It can provide a different perspective or suggest an approach you hadn't considered.
+
+
 ## Takeaway
 
 LLMs are not a replacement for human thinking (at least not yet).
