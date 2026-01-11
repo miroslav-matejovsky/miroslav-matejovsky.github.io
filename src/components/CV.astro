@@ -1,0 +1,159 @@
+---
+import CVItem from "./CVItem.astro";
+---
+
+<div class="cv-container">
+  <header class="cv-header">
+    <h1>{/* Name */}</h1>
+    <p>{/* Contact Information */}</p>
+  </header>
+
+  <section class="cv-summary">
+    <h2>Professional Summary</h2>
+    <p>{/* Brief summary placeholder */}</p>
+  </section>
+
+  <section class="cv-experience">
+    <h2>Work Experience</h2>
+
+    <CVItem
+      position="Senior Backend Engineer"
+      company="TechCorp Inc."
+      period="2023 - Present"
+      type="Full-time"
+      metrics={[
+        { label: "Team Members", value: "5-7" },
+        { label: "Microservices", value: "12" },
+        { label: "Events/sec", value: "~1000" },
+        { label: "Pipeline Time", value: "~10s" },
+      ]}
+      responsibilities={[
+        "Technical leadership for team of 5-7 developers",
+        "Designed and maintained microservices architecture for event processing system",
+        "Structured team workflow for improved deliverability and predictability (10% → 60% sprint predictability)",
+        "Led code reviews and mentored junior developers",
+      ]}
+      achievements={[
+        "Improved SCRUM workflow and guidelines in 4 teams of 5-7 developers each, increased predictability by 60-70%",
+        "Developed business features for analytics pipeline which grew from 8 to 12 microservices",
+        "Scaled up 2 future team leads for successful handover",
+        "Maintained high-performance event processing with NFR compliance",
+      ]}
+      technologies={[
+        "TypeScript",
+        "Node.js",
+        "React",
+        "Docker",
+        "Kubernetes",
+        "PostgreSQL",
+        "RabbitMQ",
+      ]}
+    />
+
+    <CVItem
+      position="Full Stack Developer"
+      company="WebSolutions Ltd."
+      period="2021 - 2023"
+      type="Full-time"
+      metrics={[
+        { label: "Projects Delivered", value: "15+" },
+        { label: "Team Size", value: "3-4" },
+        { label: "Performance Improvement", value: "45%" },
+        { label: "Code Coverage", value: "85%" },
+      ]}
+      responsibilities={[
+        "Developed full-stack web applications using React and Node.js",
+        "Optimized frontend performance and improved page load times by 45%",
+        "Implemented automated testing strategies increasing code coverage to 85%",
+        "Collaborated with product team on feature design and requirements",
+      ]}
+      achievements={[
+        "Delivered 15+ projects on time and within budget",
+        "Reduced server response times from 800ms to 200ms through database optimization",
+        "Established code quality standards and best practices across team",
+        "Mentored 2 junior developers to mid-level proficiency",
+      ]}
+      technologies={[
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "GraphQL",
+        "Jest",
+        "Webpack",
+      ]}
+    />
+
+    <CVItem
+      position="Junior Developer"
+      company="StartupXYZ"
+      period="2020 - 2021"
+      type="Full-time"
+      metrics={[
+        { label: "Features Shipped", value: "20+" },
+        { label: "Bugs Fixed", value: "50+" },
+        { label: "Learning Projects", value: "5" },
+      ]}
+      responsibilities={[
+        "Developed features for mobile and web platforms",
+        "Participated in agile development cycle with 2-week sprints",
+        "Fixed bugs and resolved technical debt in legacy codebase",
+        "Attended daily standups and collaborated with cross-functional teams",
+      ]}
+      achievements={[
+        "Successfully shipped 20+ features in first year",
+        "Reduced bug count in owned modules by 40% through rigorous testing",
+        "Completed 5 learning projects including personal portfolio",
+        "Earned promotion consideration after 6 months",
+      ]}
+      technologies={[
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Git",
+        "Figma",
+        "REST APIs",
+      ]}
+    />
+  </section>
+
+  <section class="cv-education">
+    <h2>Education</h2>
+    <div class="education-item">
+      <h3>{/* Degree */}</h3>
+      <p>{/* Institution, Dates */}</p>
+    </div>
+    {/* Add more education entries as needed */}
+  </section>
+
+  <section class="cv-skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>{/* Skill 1 */}</li>
+      <li>{/* Skill 2 */}</li>
+    </ul>
+  </section>
+</div>
+
+<style>
+  .cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .cv-summary,
+  .cv-experience,
+  .cv-education,
+  .cv-skills {
+    margin-bottom: 20px;
+  }
+  h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+</style>
