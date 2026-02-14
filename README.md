@@ -4,7 +4,9 @@
 
 ## TODO
 
-- remote or improve illocutionary/perlocutionary acts
+- remove or improve illocutionary/perlocutionary acts
+- add `Evolution over Revolution` idea (backward compatibility, incremental improvements,
+small steps with safety points, rock climbing analogy, etc.)
 - Code modes: for team and readability, for fun and learning, for performance and optimization
 - CV ideas: <https://crocspace.substack.com/p/freelancing-how-i-got-clients-part>
 - "True meaning is found in virtue and mindful action in every moment, not merely in orchestrated moments of pleasure."
