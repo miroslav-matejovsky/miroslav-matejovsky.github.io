@@ -13,3 +13,4 @@ small steps with safety points, rock climbing analogy, etc.)
 - Cheap hosting: <https://www.nearlyfreespeech.net/>
 - Do not try to solve non-existing future problems, solve current problems
   first and do not introduce future problems by overengineering.
+- estimates as fractals: <https://en.wikipedia.org/wiki/Coastline_paradox>
