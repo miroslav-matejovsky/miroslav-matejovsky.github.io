@@ -4,6 +4,7 @@
 
 ## TODO
 
+- Deming cycle for AI: plan, do, check, act
 - remove or improve illocutionary/perlocutionary acts
 - add `Evolution over Revolution` idea (backward compatibility, incremental improvements,
 small steps with safety points, rock climbing analogy, etc.)
