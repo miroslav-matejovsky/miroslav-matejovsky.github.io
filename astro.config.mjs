@@ -43,7 +43,8 @@ export default defineConfig({
 					label: 'About',
 					items: [
 						{ label: 'Me', slug: 'index' },
-						{ label: 'Project', slug: 'about/projects' },
+						{ label: 'Building Theories', slug: 'about/building-theories' },
+						{ label: 'Projects', slug: 'about/projects' },
 						{ label: 'Stoicism', slug: 'about/stoicism' },
 						{ label: 'Leadership', slug: 'about/leadership' },
 						{ label: 'LLMs', slug: 'about/llms' },

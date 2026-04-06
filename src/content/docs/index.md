@@ -17,7 +17,7 @@ refine thinking, and provide resources for those interested in similar topics.
 
 ## Introverted Rebel
 
-I challenge the status quo to drive improvement and positive change.  
+I challenge the status quo to drive improvement and positive change.
 Entropy and time push us toward transformation—why not steer that change toward something better?
 
 ---
@@ -40,7 +40,7 @@ I choose which problems to tackle and which to release, aiming for tranquility a
 
 ## What I Do
 
-I specialize in solving complex problems—technical, organizational, and strategic.
+I build theories and I specialize in solving complex problems—technical, organizational, and strategic.
 
 ### Core Principles
 
@@ -50,7 +50,7 @@ I specialize in solving complex problems—technical, organizational, and strate
 
 ### Approach
 
-I design solutions that deliver measurable business impact.  
+I design solutions that deliver measurable business impact.
 Technology is a tool; outcomes define success.
 
 The most critical steps include:
