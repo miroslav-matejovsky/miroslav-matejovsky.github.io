@@ -3,19 +3,47 @@ title: Creating Theories and Building Proofs
 description: Creating Theories and Building Proofs is the core of my approach to software development, architecture, and organizational design.
 ---
 
-I've been struggling to articulate my approach to software development, architecture, and organizational design and what I am good at.
-I have a strong intuition that there is a common thread, but it has been elusive to put into words.
-Recently I read Peter Naur's "Programming as Theory Building" and it crystallized my thinking.
+I've struggled to articulate my approach to software development, architecture,
+and organizational design, and what I am actually good at.
 
-I create theories and verify them against reality by building proofs through implementing code, designing architecture, and organizing teams.
-I protect them from erosion by maintaining boundaries, managing change, and ensuring shared understanding.
+I had a strong intuition that a single underlying activity connects these domains,
+but it was difficult to express without collapsing into role labels or tool-centric language.
+Reading Peter Naur's *Programming as Theory Building* crystallized this intuition.
+
+I create theories and verify them against reality by building proofs:
+through code, architecture, and organizational structures.
+I protect these theories from erosion by maintaining boundaries,
+managing change explicitly, and ensuring shared understanding.
 
 ### Theories as Mental Models for Reality
 
-- define boundaries of a problem space
-- identify what is external, what is internal, what is important, what is not
-- what you have under control, what you do not have under control
-- what is the system, what is the environment, what are the interactions
+A theory is a mental model that makes reality intelligible and navigable.
+
+It defines the *shape of the problem space* before any solution is attempted.
+Without such a model, actions may still occur, but they are reactive,
+local, and difficult to reason about beyond immediate effects.
+
+A theory establishes:
+
+- What belongs to the system and what belongs to the environment
+- Which elements are internal, which are external, and why
+- What is under control, what is influenced indirectly, and what is not controllable
+- Which interactions matter and which can be ignored without consequence
+
+By doing so, it makes trade-offs explicit.
+It clarifies what must be protected, what may be sacrificed,
+and what must never be assumed away.
+
+Boundaries are a direct consequence of the theory.
+They separate domains where different assumptions hold
+and prevent accidental reasoning across incompatible models.
+
+A weak or implicit theory blurs these distinctions.
+As a result, responsibility leaks, invariants erode,
+and the system becomes harder to explain than to operate.
+
+A strong theory does not guarantee correctness,
+but it makes incorrectness visible.
 
 ### Architecture as a Concept of Proof
 
@@ -31,7 +59,8 @@ It demonstrates that:
 Architectural structures are not chosen for elegance.
 They are chosen because they make the theory *provable* under real constraints.
 
-An architecture that cannot explain its own failure modes is an unproven hypothesis.
+An architecture that cannot explain its own failure modes
+is an unproven hypothesis.
 
 ### Code as a Proof of Theory
 
@@ -63,14 +92,14 @@ They indicate:
 An increase in defensive code, excessive tests, or metric gaming
 often signals theory degradation, not improved rigor.
 
-The goal is not compliance with tools. <br>
+The goal is not compliance with tools. <br/>
 The goal is early detection of theory decay.
 
 ### Summary
 
-I create theories. <br>
-I build proofs to verify them against reality. <br>
-I protect them from erosion using linters, tests, and metrics.
+I create theories. <br/>
+I build proofs to verify them against reality. <br/>
+I protect them from erosion using boundaries, tests, and feedback mechanisms. <br/>
 
 ### References
 
