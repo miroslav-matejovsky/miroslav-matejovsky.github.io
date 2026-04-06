@@ -1,0 +1,291 @@
+---
+interface Props {
+  position: string;
+  company: string;
+  period: string;
+  type?: string;
+  responsibilities?: string[];
+  achievements?: string[];
+  metrics?: {
+    label: string;
+    value: string | number;
+  }[];
+  technologies?: string[];
+}
+
+const {
+  position,
+  company,
+  period,
+  type = "Full-time",
+  responsibilities = [],
+  achievements = [],
+  metrics = [],
+  technologies = [],
+} = Astro.props;
+---
+
+<div class="cv-item">
+  <div class="cv-item__header">
+    <div class="cv-item__title-section">
+      <h3 class="cv-item__position">{position}</h3>
+      <p class="cv-item__company">{company}</p>
+    </div>
+    <div class="cv-item__meta">
+      <span class="cv-item__period">{period}</span>
+      {type && <span class="cv-item__type">{type}</span>}
+    </div>
+  </div>
+
+  <div class="cv-item__content">
+    {
+      metrics.length > 0 && (
+        <section class="cv-item__section cv-item__metrics">
+          <div class="metrics-grid">
+            {metrics.map((metric) => (
+              <div class="metric-card">
+                <div class="metric-value">{metric.value}</div>
+                <div class="metric-label">{metric.label}</div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      responsibilities.length > 0 && (
+        <section class="cv-item__section">
+          <h4 class="cv-item__section-title">💼 Responsibilities</h4>
+          <ul class="cv-item__list">
+            {responsibilities.map((responsibility) => (
+              <li class="cv-item__list-item">{responsibility}</li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      achievements.length > 0 && (
+        <section class="cv-item__section">
+          <h4 class="cv-item__section-title">🎯 Accomplishments</h4>
+          <ul class="cv-item__list">
+            {achievements.map((achievement) => (
+              <li class="cv-item__list-item">{achievement}</li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      technologies.length > 0 && (
+        <section class="cv-item__section">
+          <h4 class="cv-item__section-title">🛠 Technologies</h4>
+          <div class="cv-item__tags">
+            {technologies.map((tech) => (
+              <span class="cv-item__tag">{tech}</span>
+            ))}
+          </div>
+        </section>
+      )
+    }
+  </div>
+</div>
+
+<style>
+  .cv-item {
+    border-left: 3px solid var(--color-accent, #6366f1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: var(--color-bg-secondary, #f9f9f9);
+    border-radius: 0 8px 8px 0;
+  }
+
+  .cv-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .cv-item__title-section {
+    flex: 1;
+    min-width: 250px;
+  }
+
+  .cv-item__position {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-text, #1a1a1a);
+  }
+
+  .cv-item__company {
+    margin: 0.25rem 0 0 0;
+    font-size: 1.1rem;
+    color: var(--color-text-secondary, #666);
+    font-weight: 500;
+  }
+
+  .cv-item__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+    text-align: right;
+  }
+
+  .cv-item__period {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary, #666);
+    font-weight: 500;
+  }
+
+  .cv-item__type {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: var(--color-accent, #6366f1);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .cv-item__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .cv-item__section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .cv-item__section-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text, #1a1a1a);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .cv-item__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .cv-item__list-item {
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--color-text, #1a1a1a);
+  }
+
+  .cv-item__list-item::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent, #6366f1);
+    font-weight: bold;
+  }
+
+  .cv-item__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .cv-item__tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-tag-bg, #e6e6fa);
+    color: var(--color-accent, #6366f1);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid var(--color-accent, #6366f1);
+  }
+
+  .cv-item__metrics {
+    width: 100%;
+  }
+
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .metric-card {
+    padding: 1rem;
+    background: linear-gradient(
+      135deg,
+      var(--color-accent, #6366f1),
+      var(--color-accent-light, #818cf8)
+    );
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+  }
+
+  .metric-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  .metric-label {
+    font-size: 0.85rem;
+    opacity: 0.9;
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .cv-item {
+      padding: 1.25rem;
+    }
+
+    .cv-item__header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .cv-item__meta {
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    .cv-item__position {
+      font-size: 1.2rem;
+    }
+
+    .cv-item__company {
+      font-size: 1rem;
+    }
+
+    .metrics-grid {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .metric-card {
+      padding: 0.75rem;
+    }
+
+    .metric-value {
+      font-size: 1.5rem;
+    }
+  }
+</style>
