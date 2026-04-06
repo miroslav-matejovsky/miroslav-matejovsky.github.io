@@ -40,7 +40,7 @@ I choose which problems to tackle and which to release, aiming for tranquility a
 
 ## What I Do
 
-I [build theories](/about/building-theories) and I specialize in solving complex problems—technical, organizational, and strategic.
+I [create theories and build proofs](/about/theories-and-proofs) for complex problems—technical, organizational, and strategic.
 
 ### Core Principles
 

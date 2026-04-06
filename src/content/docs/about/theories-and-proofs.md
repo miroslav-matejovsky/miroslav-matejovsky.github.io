@@ -1,14 +1,21 @@
 ---
-title: Building Theories
-description: Building Theories is the core of my approach to software development, architecture, and organizational design.
+title: Creating Theories and Building Proofs
+description: Creating Theories and Building Proofs is the core of my approach to software development, architecture, and organizational design.
 ---
 
 I've been struggling to articulate my approach to software development, architecture, and organizational design and what I am good at.
 I have a strong intuition that there is a common thread, but it has been elusive to put into words.
 Recently I read Peter Naur's "Programming as Theory Building" and it crystallized my thinking.
 
-I build theories. I verify them against reality by implementing code, designing architecture, and organizing teams.
+I create theories and verify them against reality by building proofs through implementing code, designing architecture, and organizing teams.
 I protect them from erosion by maintaining boundaries, managing change, and ensuring shared understanding.
+
+### Theories as Mental Models for Reality
+
+- define boundaries of a problem space
+- identify what is external, what is internal, what is important, what is not
+- what you have under control, what you do not have under control
+- what is the system, what is the environment, what are the interactions
 
 ### Architecture as a Concept of Proof
 
@@ -27,7 +34,6 @@ They are chosen because they make the theory *provable* under real constraints.
 An architecture that cannot explain its own failure modes is an unproven hypothesis.
 
 ### Code as a Proof of Theory
-
 
 Code is an executable proof that the theory survives contact with reality.
 
@@ -62,12 +68,9 @@ The goal is early detection of theory decay.
 
 ### Summary
 
-
-I build theories. <br>
-I verify them against reality. <br>
-I protect them from erosion. <br>
-
-Everything else is implementation detail.
+I create theories. <br>
+I build proofs to verify them against reality. <br>
+I protect them from erosion using linters, tests, and metrics.
 
 ### References
 
