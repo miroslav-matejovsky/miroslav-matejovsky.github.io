@@ -18,4 +18,4 @@ small steps with safety points, rock climbing analogy, etc.)
 - add my own accomplishments and projects to the portfolio section (automation for ITOps,
 Generating docs from code with Roslyn, DevSecOps team, Platform, Data Products restart, SSO Strategy,
 Improving security posture, Artifact Promotion Process, Adopting Copilot, Hybrid Azure ADO - GitHub approach,
-Secure Connect, etc.)
+Secure Connect, Integration Platform as a Cloud Enabler, etc.)
