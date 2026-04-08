@@ -15,3 +15,7 @@ small steps with safety points, rock climbing analogy, etc.)
 - Do not try to solve non-existing future problems, solve current problems
   first and do not introduce future problems by overengineering.
 - estimates as fractals: <https://en.wikipedia.org/wiki/Coastline_paradox>
+- add my own accomplishments and projects to the portfolio section (automation for ITOps,
+Generating docs from code with Roslyn, DevSecOps team, Platform, Data Products restart, SSO Strategy,
+Improving security posture, Artifact Promotion Process, Adopting Copilot, Hybrid Azure ADO - GitHub approach,
+Secure Connect, Integration Platform as a Cloud Enabler, etc.)
