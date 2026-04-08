@@ -51,7 +51,6 @@ export default defineConfig({
 						{ label: 'This Page', slug: 'about/this-page' },
 					],
 				},
-				{ label: 'CV', slug: 'cv' },
 			],
 		}),
 	],
