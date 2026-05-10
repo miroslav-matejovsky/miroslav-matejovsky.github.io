@@ -19,3 +19,4 @@ small steps with safety points, rock climbing analogy, etc.)
 Generating docs from code with Roslyn, DevSecOps team, Platform, Data Products restart, SSO Strategy,
 Improving security posture, Artifact Promotion Process, Adopting Copilot, Hybrid Azure ADO - GitHub approach,
 Secure Connect, Integration Platform as a Cloud Enabler, etc.)
+- micro-cli: single file CLI
