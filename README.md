@@ -20,3 +20,4 @@ Generating docs from code with Roslyn, DevSecOps team, Platform, Data Products r
 Improving security posture, Artifact Promotion Process, Adopting Copilot, Hybrid Azure ADO - GitHub approach,
 Secure Connect, Integration Platform as a Cloud Enabler, etc.)
 - micro-cli: single file CLI
+- lebo som chcela najst ten rozdiel medzi manazer a lider.. ale nakoniec som videla, ze acts potrebuju posilnit. Ci ti tak chyba?
