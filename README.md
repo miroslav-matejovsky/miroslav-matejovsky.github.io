@@ -20,4 +20,8 @@ Generating docs from code with Roslyn, DevSecOps team, Platform, Data Products r
 Improving security posture, Artifact Promotion Process, Adopting Copilot, Hybrid Azure ADO - GitHub approach,
 Secure Connect, Integration Platform as a Cloud Enabler, etc.)
 - micro-cli: single file CLI
-- lebo som chcela najst ten rozdiel medzi manazer a lider.. ale nakoniec som videla, ze acts potrebuju posilnit. Ci ti tak chyba?
+- configuration is for insights as well (no defaults),
+  configuration is providing insights into the system,
+  what is the system doing, what is the system capable of, what components are available
+- abstraction layer (interfaces) is not only for decoupling, but also gives opportunity to
+  define what is important and what is technical detail.
